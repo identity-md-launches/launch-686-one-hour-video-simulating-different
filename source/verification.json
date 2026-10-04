@@ -1,0 +1,347 @@
+{
+  "file": "artifacts/video.mp4",
+  "bytes": 27424189,
+  "sha256": "50ec1d27cd1dadaaad9f5f45b25bda60e8829840eb824d2a6f2bcdd2f07832f1",
+  "probe": {
+    "streams": [
+      {
+        "index": 0,
+        "codec_name": "h264",
+        "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+        "profile": "High",
+        "codec_type": "video",
+        "codec_tag_string": "avc1",
+        "codec_tag": "0x31637661",
+        "width": 1280,
+        "height": 720,
+        "coded_width": 1280,
+        "coded_height": 720,
+        "closed_captions": 0,
+        "film_grain": 0,
+        "has_b_frames": 2,
+        "pix_fmt": "yuv420p",
+        "level": 31,
+        "chroma_location": "left",
+        "field_order": "progressive",
+        "refs": 1,
+        "is_avc": "true",
+        "nal_length_size": "4",
+        "id": "0x1",
+        "r_frame_rate": "5/1",
+        "avg_frame_rate": "5/1",
+        "time_base": "1/10240",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "duration_ts": 36861952,
+        "duration": "3599.800000",
+        "bit_rate": "14521",
+        "bits_per_raw_sample": "8",
+        "nb_frames": "17999",
+        "extradata_size": 45,
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0
+        },
+        "tags": {
+          "language": "und",
+          "handler_name": "VideoHandler",
+          "vendor_id": "[0][0][0][0]",
+          "encoder": "Lavc61.3.100 libx264"
+        }
+      },
+      {
+        "index": 1,
+        "codec_name": "aac",
+        "codec_long_name": "AAC (Advanced Audio Coding)",
+        "profile": "LC",
+        "codec_type": "audio",
+        "codec_tag_string": "mp4a",
+        "codec_tag": "0x6134706d",
+        "sample_fmt": "fltp",
+        "sample_rate": "22050",
+        "channels": 1,
+        "channel_layout": "mono",
+        "bits_per_sample": 0,
+        "initial_padding": 0,
+        "id": "0x2",
+        "r_frame_rate": "0/0",
+        "avg_frame_rate": "0/0",
+        "time_base": "1/22050",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "duration_ts": 79380000,
+        "duration": "3600.000000",
+        "bit_rate": "44682",
+        "nb_frames": "77521",
+        "extradata_size": 5,
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0
+        },
+        "tags": {
+          "language": "und",
+          "handler_name": "SoundHandler",
+          "vendor_id": "[0][0][0][0]"
+        }
+      },
+      {
+        "index": 2,
+        "codec_name": "bin_data",
+        "codec_long_name": "binary data",
+        "codec_type": "data",
+        "codec_tag_string": "text",
+        "codec_tag": "0x74786574",
+        "id": "0x3",
+        "r_frame_rate": "0/0",
+        "avg_frame_rate": "0/0",
+        "time_base": "1/1000",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "duration_ts": 3600000,
+        "duration": "3600.000000",
+        "nb_frames": "12",
+        "extradata_size": 43,
+        "disposition": {
+          "default": 0,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0
+        },
+        "tags": {
+          "language": "eng",
+          "handler_name": "SubtitleHandler"
+        }
+      }
+    ],
+    "chapters": [
+      {
+        "id": 0,
+        "time_base": "1/1000",
+        "start": 0,
+        "start_time": "0.000000",
+        "end": 300000,
+        "end_time": "300.000000",
+        "tags": {
+          "title": "Start here"
+        }
+      },
+      {
+        "id": 1,
+        "time_base": "1/1000",
+        "start": 300000,
+        "start_time": "300.000000",
+        "end": 600000,
+        "end_time": "600.000000",
+        "tags": {
+          "title": "Launch a company"
+        }
+      },
+      {
+        "id": 2,
+        "time_base": "1/1000",
+        "start": 600000,
+        "start_time": "600.000000",
+        "end": 900000,
+        "end_time": "900.000000",
+        "tags": {
+          "title": "Ask the oracle"
+        }
+      },
+      {
+        "id": 3,
+        "time_base": "1/1000",
+        "start": 900000,
+        "start_time": "900.000000",
+        "end": 1200000,
+        "end_time": "1200.000000",
+        "tags": {
+          "title": "Heartbeat preview"
+        }
+      },
+      {
+        "id": 4,
+        "time_base": "1/1000",
+        "start": 1200000,
+        "start_time": "1200.000000",
+        "end": 1500000,
+        "end_time": "1500.000000",
+        "tags": {
+          "title": "Token"
+        }
+      },
+      {
+        "id": 5,
+        "time_base": "1/1000",
+        "start": 1500000,
+        "start_time": "1500.000000",
+        "end": 1800000,
+        "end_time": "1800.000000",
+        "tags": {
+          "title": "Contracts"
+        }
+      },
+      {
+        "id": 6,
+        "time_base": "1/1000",
+        "start": 1800000,
+        "start_time": "1800.000000",
+        "end": 2100000,
+        "end_time": "2100.000000",
+        "tags": {
+          "title": "v4 hook"
+        }
+      },
+      {
+        "id": 7,
+        "time_base": "1/1000",
+        "start": 2100000,
+        "start_time": "2100.000000",
+        "end": 2400000,
+        "end_time": "2400.000000",
+        "tags": {
+          "title": "Audit"
+        }
+      },
+      {
+        "id": 8,
+        "time_base": "1/1000",
+        "start": 2400000,
+        "start_time": "2400.000000",
+        "end": 2700000,
+        "end_time": "2700.000000",
+        "tags": {
+          "title": "Report"
+        }
+      },
+      {
+        "id": 9,
+        "time_base": "1/1000",
+        "start": 2700000,
+        "start_time": "2700.000000",
+        "end": 3000000,
+        "end_time": "3000.000000",
+        "tags": {
+          "title": "Website"
+        }
+      },
+      {
+        "id": 10,
+        "time_base": "1/1000",
+        "start": 3000000,
+        "start_time": "3000.000000",
+        "end": 3300000,
+        "end_time": "3300.000000",
+        "tags": {
+          "title": "Image and Audio"
+        }
+      },
+      {
+        "id": 11,
+        "time_base": "1/1000",
+        "start": 3300000,
+        "start_time": "3300.000000",
+        "end": 3600000,
+        "end_time": "3600.000000",
+        "tags": {
+          "title": "Video and final practice"
+        }
+      }
+    ],
+    "format": {
+      "filename": "/home/seat/.identitymd/work/19b35629-0e0d-4249-ba99-8f2ef849ff03/64007747-f47b-4805-b02a-d6413823f71e/artifacts/video.mp4",
+      "nb_streams": 3,
+      "nb_programs": 0,
+      "nb_stream_groups": 0,
+      "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+      "format_long_name": "QuickTime / MOV",
+      "start_time": "0.000000",
+      "duration": "3600.000000",
+      "size": "27424189",
+      "bit_rate": "60942",
+      "probe_score": 100,
+      "tags": {
+        "major_brand": "isom",
+        "minor_version": "512",
+        "compatible_brands": "isomiso2avc1mp41",
+        "title": "IMD Swarm Field Guide - One Hour of Simulated Requests",
+        "encoder": "Lavf61.1.100",
+        "comment": "Educational simulation. No live jobs or transactions."
+      }
+    }
+  },
+  "top_level_mp4_atoms": [
+    {
+      "type": "ftyp",
+      "offset": 0,
+      "size": 32
+    },
+    {
+      "type": "moov",
+      "offset": 32,
+      "size": 781884
+    },
+    {
+      "type": "free",
+      "offset": 781916,
+      "size": 8
+    },
+    {
+      "type": "mdat",
+      "offset": 781924,
+      "size": 26642265
+    }
+  ],
+  "complete_decode": "passed",
+  "audio_measurements": [
+    "[Parsed_volumedetect_0 @ 0x7ab790002400] mean_volume: -24.1 dB",
+    "[Parsed_volumedetect_0 @ 0x7ab790002400] max_volume: -0.3 dB"
+  ],
+  "contact_sheet": "source/preview.jpg",
+  "checks": "Codecs, pixel format, dimensions, duration, chapter count, size, moov-before-mdat and complete decoding passed."
+}
